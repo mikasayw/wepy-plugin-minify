@@ -2,13 +2,13 @@
 
 ## 安装
 ```bash
-npm install @wepy/plugin-minify --save-dev
+npm install wepy-plugin-minify --save-dev
 ```
 
 ## 配置`wepy.config.js`
 
 ```javascript
-const WepyPluginMinify = require('@wepy/plugin-minify');
+const WepyPluginMinify = require('wepy-plugin-minify');
 
 module.exports = {
   plugins: [

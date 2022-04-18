@@ -1,5 +1,5 @@
 {
-  "name": "@wepy/plugin-minify",
+  "name": "wepy-plugin-minify",
   "version": "1.0.0",
   "description": "minify code plugin for Wepy",
   "main": "src/index.js",
