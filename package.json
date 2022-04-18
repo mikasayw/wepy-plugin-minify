@@ -14,16 +14,16 @@
   "author": {
     "name": "mikasayw",
     "email": "mikasayw@163.com",
-    "url": "https://github.com/mikasayw/WepyPluginMinify"
+    "url": "https://github.com/mikasayw/wepy-plugin-minify.git"
   },
   "license": "MIT",
   "dependencies": {
     "pretty-data": "^0.40.0",
     "terser": "^5.12.1"
   },
-  "homepage": "https://github.com/mikasayw/WepyPluginMinify",
+  "homepage": "https://github.com/mikasayw/wepy-plugin-minify.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mikasayw/WepyPluginMinify"
+    "url": "https://github.com/mikasayw/wepy-plugin-minify.git"
   }
 }
