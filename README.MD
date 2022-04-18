@@ -1,4 +1,4 @@
-## :maple_leaf: wepy-mini-plugin
+## :maple_leaf: @wepy/plugin-minify
 mini code plugin for Wepy
 
 ##### terser
@@ -9,12 +9,12 @@ mini code plugin for Wepy
 
 * ### install
 ```
-  npm install wepy-mini-plugin -D
+  npm install @wepy/plugin-minify -D
 ```
 
 * ### setup
 ```javascript
-const WepyMiniPlugin = require('wepy-mini-plugin');
+const WepyPluginMinify = require('@wepy/plugin-minify');
 
 module.exports = {
   plugins: [

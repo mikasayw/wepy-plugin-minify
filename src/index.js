@@ -1,12 +1,3 @@
-/*
- * @Description: WepyMiniPlugin
- * @FilePath: /WepyMiniPlugin/index.js
- * @Author: wei.Yin
- * @Date: 2021-05-31 17:02:20
- * @LastEditors: wei.Yin
- * @LastEditTime: 2022-04-18 17:31:28
- */
-
 const path = require('path')
 const prettyData = require('pretty-data')
 const { minify } = require('terser')
