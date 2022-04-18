@@ -1,18 +1,12 @@
-## :maple_leaf: @wepy/plugin-minify
-mini code plugin for Wepy
+# @wepy/plugin-minify 插件
 
-##### terser
-
-##### pretty-data
-
-
-
-* ### install
-```
-  npm install @wepy/plugin-minify -D
+## 安装
+```bash
+npm install @wepy/plugin-minify --save-dev
 ```
 
-* ### setup
+## 配置`wepy.config.js`
+
 ```javascript
 const WepyPluginMinify = require('@wepy/plugin-minify');
 
@@ -22,21 +16,23 @@ module.exports = {
     WepyMinifyPlugin({ enable: true })
   ],
 };
-
 ```
 
-* ## options
+## 参数说明
+
+你提供的配置选项 ```options``` 的 enable 字段 用于配置否关闭压缩功能。默认为开启
+
+内部默认配置如下：
 ```javascript
-default 
-  options = {
-    enabled: false,
-    wxml: true,
-    wxss: false,
-    js: true,
-    json: true,
-    compress: {
-      drop_console: true,
-      drop_debugger: true
-    },
-  };
+const options = {
+  enabled: false,
+  wxml: true,
+  wxss: false,
+  js: true,
+  json: true,
+  compress: {
+    drop_console: true,
+    drop_debugger: true
+  },
+};
 ```
