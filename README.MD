@@ -25,7 +25,7 @@ module.exports = {
 内部默认配置如下：
 ```javascript
 const options = {
-  enabled: false,
+  enabled: true,
   wxml: true,
   wxss: false,
   js: true,
